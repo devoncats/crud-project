@@ -1,3 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+[data-theme = 'light'] {
+  --background: #ffffff;
+  --background-hover: #f4f4f5;
+  --background-accent: #18181b;
+  --background-accent-hover: #2e2e31;
+  --background-muted: #f4f4f5;
+
+  --card-background: #ffffff;
+
+  --text-color-primary: #09090b;
+  --text-color-secondary: #71717a;
+  --text-link: #6b6b6d;
+  --text-link-hover: #3a3a3c;  
+
+  --border: #e4e4e7;
+  --border-light: #f1f1f2;
+
+  --primary: #e11d48;
+  --secondary: #f9d1da;
+}
+
+[data-theme = 'dark'] {
+  --background: #0c0a09;
+  --background-hover: #27272a;
+  --background-accent: #fafafa;
+  --background-accent-hover: #e2e2e2;
+
+  --card-background: #1c1917;
+
+  --text-color-primary: #f2f2f2;
+  --text-color-secondary: #a1a1aa;
+  --text-link: #959594;
+  --text-link-hover: #c4c4c3;
+
+  --border: #27272a;
+  --border-light: #212020;
+
+  --primary: #e11d48;
+  --secondary: #431920;
+}
+
 body {
   margin: 0;
-}
+  background: var(--background);
+
+  font-family: 'Inter', sans-serif;
+} 
