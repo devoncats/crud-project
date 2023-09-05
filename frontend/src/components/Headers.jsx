@@ -21,9 +21,9 @@ export function Header () {
         </div>
 
         <div className='right-box'>
-          <box-icon type='logo' name='github' color={theme === 'light' ? '#09090b' : '#f2f2f2'}><a href='#' /></box-icon>
-          <box-icon name='linkedin-square' type='logo' color={theme === 'light' ? '#09090b' : '#f2f2f2'}><a href='#' /></box-icon>
-          <span onClick={toggleTheme} className='theme-mode'>{theme === 'light' ? <box-icon name='sun' color='#09090b' /> : <box-icon name='moon' color='#f2f2f2' />}</span>
+          <a className='header-buttons' href='https://github.com/devoncats/'><box-icon type='logo' name='github' color={theme === 'light' ? '#09090b' : '#f2f2f2'}><a href='#' /></box-icon></a>
+          <a className='header-buttons' href='https://www.linkedin.com/in/jose-ignacio-vasquez/'><box-icon name='linkedin-square' type='logo' color={theme === 'light' ? '#09090b' : '#f2f2f2'}><a href='#' /></box-icon></a>
+          <span onClick={toggleTheme} className='header-buttons'>{theme === 'light' ? <box-icon name='sun' color='#09090b' /> : <box-icon name='moon' color='#f2f2f2' />}</span>
         </div>
       </header>
 

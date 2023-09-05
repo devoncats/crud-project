@@ -3,8 +3,17 @@ import { Header } from '../components/Headers'
 
 export function Home () {
   return (
-    <div className='container'>
+    <>
       <Header />
-    </div>
+
+      <div className='hero'>
+        <div className='left-hero'>
+          <h1 className='title'>In search of perfection.</h1>
+        </div>
+        <div className='right-hero'>
+          <h1>Placeholder</h1>
+        </div>
+      </div>
+    </>
   )
 }

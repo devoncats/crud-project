@@ -1,3 +1,5 @@
+import { Header } from '../components/Headers'
+
 export function AboutUs () {
   return (
     <div className='container'>
@@ -6,7 +8,8 @@ export function AboutUs () {
       </div>
 
       <div className='info'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, reprehenderit ut officia aut porro harum, accusantium architecto eos totam ab fugiat magnam esse tempora atque nesciunt unde perferendis quam sit.</p>
+        <Header />
+        <p className='hola'>Hola mundo!</p>
       </div>
     </div>
   )
