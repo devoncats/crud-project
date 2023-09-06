@@ -8,7 +8,7 @@ export function Home () {
 
       <div className='hero'>
         <div className='left-hero'>
-          <h1 className='title'>In search of perfection.</h1>
+          <h1 className='title text-4xl font-bold'>In search of perfection.</h1>
         </div>
         <div className='right-hero'>
           <h1>Placeholder</h1>

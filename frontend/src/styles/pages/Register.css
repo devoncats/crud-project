@@ -1,0 +1,27 @@
+@import url('../../index.css');
+
+.logo-inverted {
+  color: var(--background);
+}
+
+.left-register {
+  background: #18181b;
+}
+
+.right-register {
+  background: var(--background);
+}
+
+.login {
+  color: var(--text-color-primary);
+}
+
+.github {
+  background: var(--background-inverted);
+  color: var(--background);
+}
+
+.linkedin {
+  background: #136bc5;
+  color: #ffffff
+}

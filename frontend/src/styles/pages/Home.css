@@ -13,18 +13,17 @@
   max-width: 34vw;
   display: flex;
   flex: 1;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .right-hero {
   max-width: 34vw;
   display: flex;
   flex: 1;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .title {
-  font-size: 2.25rem;
   margin: 0;
 }
 

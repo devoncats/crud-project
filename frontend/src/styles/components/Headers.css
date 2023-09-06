@@ -1,76 +1,20 @@
 @import url('../../index.css');
 
 header {
-  height: 56px;
-  top: 0;
-  left: 0;
-
-  position: sticky; 
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  padding: 0 40px 0 40px;
-  
   background: var(--background);
-
   border-bottom: 1px solid var(--border);
-}
-
-.left-box, .right-box {
-  max-width: 34vw;
-  display: flex;
-  flex: 1;
-}
-
-.left-box {
-  gap: 1.5rem;
 }
 
 .logo {
   color: var(--text-color-primary)
 }
 
-.logo span {
-  font-weight: 700;
-  font-size: 1rem;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-}
-
 nav .link {
-  font-size: .875rem;
-  font-weight: 500;
-  text-decoration: none;
   color: var(--text-link);
 }
 
 nav .link:hover {
   color: var(--text-link-hover);
-}
-
-.right-box {
-  justify-content: end;
-  align-items: center;
-  gap: .7rem;
-}
-
-.header-buttons {
-  width: 35px;
-  height: 35px;
-
-  border-radius: .5rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  cursor: pointer;
 }
 
 .header-buttons:hover {
